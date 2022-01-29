@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://image.freepik.com/free-photo/dark-room-background-with-light_125540-1022.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 5px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    box-shadow: 0 9px 10px #3333;
+    background: #fff;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.container .video-links-container {
+    flex: 1 1 400px;
+ 
+}
+.container{
+    background-color: black;
+}
+.video-links-container{
+    background-color: black;
+}
+.video-links{
+    background-color: black;
+    color: wheat;
+}
+
+.container .video-container {
+    flex: 1 1 400px;
+}
+
+.container .video-container .video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.container .video-links-container .video-links {
+    font-size: 20px;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.container .video-links-container .video-links {
+    background: #eee;
+}
+
+.container .video-links-container .video-links:hover {
+    background: #666;
+    color: #fff;
+}
+
+/*  */
+header a {
+    text-decoration: none;
+}
+
+
+header {
+    padding: 0 20px;
+    background-color: var(--background-primary);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #01403a;
+    color: #ffffff;
+
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: var(--white-clr);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul a {
+    color: white;
+    padding-bottom: 2px;
+
+}
+
+nav ul a:hover {
+    color: #21a698;
+    border-bottom: 2px solid var(--text-primary);
+}
+
+nav ul li {
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+}
+
+#brand {
+    pointer-events: none;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

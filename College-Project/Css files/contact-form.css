@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px sans-serif;
+    min-width: 400px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-color: #2b2626;
+}
+
+.contact-banner {
+    padding: 20px;
+    ;
+}
+
+.contact-banner h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.contact-banner p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.contact-description {
+    margin-bottom: 40px;
+}
+
+input {
+    padding: 26px;
+    border-radius: 5px;
+    width: 527px;
+    border: 1px solid rgb(0, 114, 66);
+    font-size: 18px;
+    outline: none;
+    color: whitesmoke;
+    box-shadow: 2px 2px 2px white;
+    background-color: #2d2d2d;
+
+
+}
+
+.submit button {
+    background-color: #4b8cfb;
+    ;
+    color: whitesmoke;
+}
+
+.message textarea {
+    background-color: #2d2d2d;
+    color: whitesmoke;
+}
+
+
+.form-control {
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.name,
+.email,
+.phone,
+.message,
+.submit {
+
+    text-align: center;
+}
+
+
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+textarea {
+    width: 560px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 18px;
+}
+
+button {
+    color: black;
+    padding: 20px;
+    border: 1px solid rgb(0, 114, 66);
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: rgb(0, 114, 66);
+}
+
+button:hover {
+    background-image: linear-gradient(to right,
+            rgb(0, 114, 66) 0%,
+            rgb(4, 109, 91) 100%);
+    color: white;
+}
+
+
+
+hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 1px;
+    border: none;
+    background-color: rgb(0, 114, 66);
+}
+
+.thank-you {
+
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.hidden {
+    display: none;
+}
+
+ul,
+nav {
+    list-style: none;
+}
+
+/*  */
+header a {
+    text-decoration: none;
+}
+
+
+header {
+    padding: 0 20px;
+    background-color: var(--background-primary);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #01403a;
+    color: #ffffff;
+
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: var(--white-clr);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul a {
+    color: white;
+    padding-bottom: 2px;
+
+}
+
+nav ul a:hover {
+    color: #21a698;
+    border-bottom: 2px solid var(--text-primary);
+}
+
+nav ul li {
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+}
+
+#brand {
+    pointer-events: none;
+}

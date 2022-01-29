@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+ <div class="navbar">
+     <header>
+         <div id="brand"><a href="/">Yog-Tantra</a></div>
+         <nav>
+             <ul>
+                 <li><a href="/New-Yoga-Landing-Page-main/index.html">Home</a></li>
+                 <li><a href="#about-us">About Us</a></li>
+                 <li><a href="#what-we-offer">What We Offer</a></li>
+                 <li><a href="#testimonials">Testimonials</a></li>
+                 <li><a href="#contact-us">Contact Us</a></li>
+
+             </ul>
+         </nav>
+     </header>
+ </div>
+<h1 id="heading">Welcome to demo playlist</h1>
+
+    <div class="container"> 
+
+
+        <div class="video-links-container">
+            <a href="images/yoga-1.mp4" class="video-links">01.Stress relive</a>
+            <a href="images/yoga-2.mp4" class="video-links">02.Anxiety reduction</a>
+            <a href="images/yoga-3.mp4" class="video-links">03.Fight addictions</a>
+            <a href="images/yoga-4.mp4" class="video-links">04.Improve focus</a>
+            <a href="images/yoga-5.mp4" class="video-links">05.Posture</a>
+            <a href="images/yoga-6.mp4" class="video-links">06.Flexibility</a>
+            <a href="images/yoga-7.mp4" class="video-links">07.Muscle strength</a>
+            <a href="images/yoga-8.mp4" class="video-links">08.Boost metabolism</a>
+        </div>
+
+        <div class="video-container">
+            <video src="images/video-1.mp4" loop muted controls class="video"></video>
+        </div>
+
+    </div>
+
+    <script>
+        document.querySelectorAll('.video-links').forEach(links => {
+            links.addEventListener('click', (e) => {
+                e.preventDefault();
+                var src = links.getAttribute('href');
+                document.querySelector('.video').src = src;
+                document.querySelector('.video').play();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

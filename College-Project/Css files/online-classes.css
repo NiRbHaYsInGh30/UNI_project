@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* a,p{
+    color: white;
+} */
+body {
+    font-weight: 450;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.welcome {
+    position: relative;
+    width: 1520px;
+    padding-left: 174.6px;
+    padding-right: 174.4px;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+    font-size: 2rem;
+    overflow: hidden;
+    background: url(https://poweryoga.com/wp-content/uploads/2020/07/1440-5.svg?id=318579);
+    background-color: rgb(133, 106, 57);
+    opacity: 0.8;
+
+}
+
+
+.item a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    /* opacity: 0.75; */
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--background-primary);
+}
+
+.item {
+    width: 100px;
+}
+
+.welcome h1 {
+    font-weight: 500;
+}
+
+.relax h3,
+h5 {
+    color: brown;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 90px;
+
+}
+
+
+/* image grid */
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 2em auto;
+    background-color: #eee;
+    overflow: hidden;
+    padding: .5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.item {
+    width: 25%;
+    float: left;
+    padding: 1.5em;
+
+    border: 1px dotted #ddd;
+    border-radius: 10px;
+
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.item:hover {
+    box-shadow: 6px 7px 13px 3px #411b1d;
+}
+
+a {
+    cursor: pointer;
+}
+
+.item p {
+    min-height: 5em;
+
+    margin: .5em 0 0 0;
+    font-size: .9em;
+    text-align: center;
+}
+
+.item p :hover {
+    box-shadow: 6px 7px 13px 3px #e24c4c;
+}
+
+@media screen and (max-width:1000px) {
+
+
+    .item {
+        width: 33.3%;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    image {
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+
+
+
+    .item {
+        width: 50%;
+    }
+
+    .item p {
+        font-size: .8em;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+
+    .item {
+        width: 100%;
+    }
+
+}
+
+.image_relax {
+    display: flex;
+    gap: 20px;
+    padding: 16px 6px -6px 131px;
+    width: 1645px
+}
+
+/* end */
+
+
+#relax-btn button {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: white;
+    /* margin-top: 80px; */
+    margin-top: 48px;
+    margin-right: 222px;
+    margin-left: 94px;
+}
+
+#relax-button button {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: white;
+    /* margin-top: 80px; */
+    margin-top: 48px;
+    margin-right: 888px;
+    margin-left: 106px;
+}
+
+#relax-btn button:hover {
+    background-color: purple;
+}
+
+#relax-button button:hover {
+    background-color: purple;
+}
+
+.new h3,
+h5 {
+    color: brown;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.free-demo button {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 700px;
+    border: 1px solid black;
+    padding: 25px 50px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 90px;
+
+
+}
+
+.free-demo button:hover {
+    background-color: purple;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.free-demo p {
+    font-size: 2rem;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.member {
+    position: relative;
+    width: 1700px auto;
+    padding-left: 174.6px;
+    padding-right: 174.4px;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+    background-image: url(https://poweryoga.com/wp-content/uploads/2020/07/1440-5.svg?id=318579);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: 2rem; */
+    margin-top: 50px;
+}
+
+.member_price {
+    font-size: 2rem;
+}
+
+
+
+#pricing {
+    width: 989px;
+    margin: 100px auto;
+    font-family: 'Open Sans', Helvetica;
+}
+
+.price_card {
+    width: 300px;
+    background: rgb(255, 255, 255);
+    display: inline-table;
+    top: 0;
+
+}
+
+.price_card:hover {
+
+    box-shadow: red 7px 9px 47px;
+}
+
+.price_card:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header {
+    color: rgb(255, 255, 255);
+}
+
+.alpha .header {
+    background: rgb(245, 166, 35);
+}
+
+.bravo .header {
+    background: rgb(246, 77, 77);
+}
+
+.charlie .header {
+    background: rgb(48, 219, 181);
+}
+
+.price {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.name {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.features {
+    list-style: none;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin: 0 35px;
+    padding: 20px 15px;
+    width: 200px;
+}
+
+.features li:not(:last-child) {
+    border: 1px solid rgb(242, 242, 242);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+#pricing button {
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px auto 35px;
+}
+
+#pricing button:hover {
+    cursor: pointer;
+    box-shadow: purple 3px 4px;
+}
+
+
+
+
+.alpha button {
+    background: rgb(245, 166, 35);
+}
+
+.bravo button {
+    background: rgb(246, 77, 77);
+}
+
+.charlie button {
+    background: rgb(48, 219, 181);
+}
+
+.tip {
+    font-family: 'Indie Flower';
+    position: absolute;
+    color: rgb(117, 117, 117);
+    margin: 10px 5px;
+}
+
+/*  */
+header a {
+    text-decoration: none;
+}
+
+
+header {
+    padding: 0 20px;
+    background-color: var(--background-primary);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #01403a;
+    color: #ffffff;
+
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: var(--white-clr);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul a {
+    color: white;
+    padding-bottom: 2px;
+
+}
+
+nav ul a:hover {
+    color: #21a698;
+    border-bottom: 2px solid var(--text-primary);
+}
+
+nav ul li {
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+}
+
+#brand {
+    pointer-events: none;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 30%;
+    font-size: 30px;
+}
+
